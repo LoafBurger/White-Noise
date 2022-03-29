@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Noise</title>
+    <link rel="stylesheet" href="White_Noise.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>  <!--special tag which creates a canvas field. It is transparent, so you can layer them-->
+    <div id="title">
+        <h1><u>White Noise<u></h1>
+    </div>
+    <div id="controls">
+        <button id="changeButton">Change Color</button>
+        <button id="changeShape">Change Shape</button>
+        <button id="showTrail">Show Lines</button>
+        <div>
+            <input id = "trail" type="range" min = "1" max = "20" step = "1" value = 2>
+            <label for="trail">Trail</label>
+        </div>
+        <div>
+            <input id = "explosion" type="range" min = "1" max = "50" step = "1" value = 10>
+            <label for="explosion">Explosion</label>
+        </div>
+        <div>
+            <input id="size" type="range" min = "1" max = "50" step = 1 value = 15>
+            <label for="size">Size</label>
+        </div>
+    </div>
+    <script src="White_Noise.js"></script>
+</body>
+</html>
+
